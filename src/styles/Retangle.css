@@ -1,0 +1,58 @@
+.retangle-externo{
+    width: 95%;
+    margin-left: 2em;
+    margin-right: 2em;
+    height: auto;
+    margin-left: 2em;
+    background: #FFFFFF;
+    border-radius: 20px;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.container-list{
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+    padding-top: 1em;
+}
+
+.name-list{
+    margin-left: 1%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.retangle-externo .retangle-interno{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    /* height: 90%; */
+    margin: auto;
+    margin-top: 3%;
+    background: #FFFFFF;
+    
+}
+
+div.products{
+    width: 28%;
+    height: 25vw;
+    margin: 2%;
+    background: #C4C4C4;
+    border-radius: 12px;
+}
+
+div.request-content-products{
+    width: 23%;
+    height: 26vw;
+    margin: 2%;
+    border-bottom: none;
+    border-radius: 12px 12px 50% 50%;
+    
+    background: #C4C4C4;
+}
+

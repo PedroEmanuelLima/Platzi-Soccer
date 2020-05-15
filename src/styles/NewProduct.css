@@ -1,0 +1,152 @@
+
+/*Titles*/
+.my-title{
+    /* Cadastrar Novo Produto */
+    width: 497px;
+    height: 188px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 94px;
+
+    color: #000000;
+}
+
+.my-subtitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 5%;
+}
+
+/*Container for fill*/
+    /*Image*/
+.container-div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3em;
+    height: 25em;
+
+}
+
+.container-end{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.container-image{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 334px;
+    height: 77px;
+    background: #F4F1F1;
+    border: 4px solid #BA2A2A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.div-past{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 72px;
+    height: 73px;
+    margin: 0;
+    padding: 0;
+    background: #BA2A2A;
+    border-radius: 19px 0px 0px 20px;
+}
+
+.text-img{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: auto;
+}
+
+.input-image{
+    position: absolute;
+    width: 72px;
+    height: 73px;
+    opacity: 0 !important;
+}
+
+    /*Description and price*/
+
+.container-description{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 334px;
+    height: 77px;
+    background: #F4F1F1;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.container-description button{ 
+    text-align: center;
+    width: 334px;
+    height: 77px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+
+    background: #BA2A2A;
+    border-radius: 8px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: xx-large;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.input-description{
+    border: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    background-color: #F4F1F1;
+
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+div.return{
+    margin-top: 2%;
+}
+
+.return .link-return {
+    display: flex;
+    flex-direction: row;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}

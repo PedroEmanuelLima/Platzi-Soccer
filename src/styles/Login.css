@@ -1,0 +1,71 @@
+.make-login{
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000000;
+
+}
+
+.container-enter{
+    align-items: center;
+    width: 45%;
+    height: 70px;
+    background: #F4F1F1;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.container-enter .input-ID{
+    border: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    background-color: #F4F1F1;
+    border-radius: 8px;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-enter{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+
+    background: #BA2A2A;
+    border-radius: 8px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.register{
+    width: 100%;
+    text-align: center;
+}
+
+.register .click-register{
+    background: #E5E5E5;
+    border: none;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+}
